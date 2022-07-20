@@ -1,0 +1,52 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: DefaultTabController(
+        length: 5,
+        child: Scaffold(
+          appBar: AppBar(
+            centerTitle: true,
+            backgroundColor: Colors.purpleAccent,
+            elevation: 8,
+            bottom: const TabBar(
+              tabs: [
+                Tab(child: Text('Inicio')),
+                Tab(child: Text('Alumno')),
+                Tab(child: Text('Materias')),
+                Tab(child: Text('Profesores')),
+                Tab(child: Text('Calificaciones')),
+              ],
+              isScrollable: true,
+              labelStyle: TextStyle(fontSize: 20),
+              labelPadding: EdgeInsets.only(left: 30, right: 30),
+              indicatorColor: Colors.yellow,
+              indicatorWeight: 5,
+              labelColor: Colors.black,
+              unselectedLabelColor: Colors.yellow,
+              unselectedLabelStyle:
+                  TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),//tapbar
+            title: const Text('Preparatoria CBTCJ'),
+          ),//appbar
+          body: const TabBarView(
+            children: <Widget>[
+              Icon(Icons.home, size: 350),
+              Icon(Icons.person, size: 350),
+              Icon(Icons.book_sharp, size: 350),
+              Icon(Icons.person_pin, size: 350),
+              Icon(Icons.ten_k, size: 350),
+            ],
+          ), //body
+        ),//scaffold
+      ),//home defaulttabcontroller
+    ); //materialapp
+  } //widget
+} //class

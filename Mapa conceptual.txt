@@ -1,0 +1,249 @@
+1.-Se entra a google y se busca la aplicacion para poder empezar con el procedimiento. 
+
+ 
+
+2.-Entramos al link que nos aparece primero al momento de buscar que vendria siendo la pagina oficial de android studio 
+
+ 
+
+3.-Para ver que nuestra computadora es de 64 bits tenemos que ir a "sistema" o "mi pc" depende de cual sea tu caso. 
+
+ 
+
+4.- compruebas si es de 64 bits, si no es de 64 y es de 32 bits, entoces tendras que instalar la version de 32 bits 
+
+ 
+
+5.- Iras a la pagina de android studio y le das en "Download Options" y te apareceran muchas versiones antiguas. 
+
+ 
+
+6.- Y luego seleccionas la version y le das en "Download"  y aceptas todos los terminos y condiciones 
+
+ 
+
+7.- Depende de tu internet el tiempo que demore en descargar dicho archivo 
+
+ 
+
+8.- Ahora descargaremos la maquina virtual de Java 
+
+ 
+
+9.- buscamos en google "jdk Java sitio oficial" 
+
+ 
+
+10.- Le damos click en donde dice "Java Downloads Oracle"  
+
+ 
+
+11.- Descargamos el java de windows de 64 o 32 bits depende de cual sea tu caso 
+
+ 
+
+12.- aceptamos nuevamente los terminos y condiciones  
+
+ 
+
+13.- y le damos en "Download" 
+
+ 
+
+14.- Y luego tendremos que crear una cuenta en Oracle para poder instalar la maquina virtual de java 
+
+ 
+
+15.- una vez creada la cuenta empezara nuestra descarga 
+
+ 
+
+16.- Primero se instala el jdk para que todo vaya bien en la instalacion 
+
+ 
+
+17.- El jdk lo instalamos como administrador  
+
+ 
+
+18.- nos aparacera una pantalla y nosotros le ponemos que si o aceptar 
+
+ 
+
+19.- se nos abrira una ventana y le damos en "next" para proseguir con la instalacion del jdk 
+
+ 
+
+20.- observa en que ubicacion se esta instalando el jdk 
+
+ 
+
+21.- Le damos nuevamente en "next" y esperamos la instalacion 
+
+ 
+
+22.- una vez concluida la instalacion del jdk le damos en "close" 
+
+ 
+
+23.- ahora procederemos a instalar el Android Studio 
+
+ 
+
+24.- Pero primero crearemos una variable de entorno 
+
+ 
+
+25.- buscamos en windows "editar variables de entorno del sistema"  
+
+ 
+
+26.- le damos click abajo en donde dice variable de entorno 
+
+ 
+
+27.- luego le damos en agregar nueva variable de entorno  
+
+ 
+
+28.- le damos click en nuevo  
+
+ 
+
+29.- y escribiremos el nombre de nuestra variable de preferencia en mayusculas 
+
+ 
+
+30.- le ponemos JAVA_HOME 
+
+ 
+
+31.- Y en la variable de entorno vamos a poner la direccion de instalacion en donde se instalo nuestro jdk 
+
+ 
+
+32.- Buscamos en "mi pc" luego nos vamos a disco local "C", luego nos iremos a "Archivos de programa", luego iremos a la carpeta "Java", seleccionas la ultima version que tengas y le das en "OK" 
+
+ 
+
+33.- Luego le damos en "OK" para crear la variable 
+
+ 
+
+34.- Y damos de nuevo en "OK"  
+
+ 
+
+35.-  y ahora verificaremos que nuestro java se haya creado correctamente 
+
+ 
+
+36.- Abrimos una terminal como administrador, le damos click derecho a "Command Prompt" y lo ejecutamos como administrador 
+
+ 
+
+37.- Una vez abierta escribiremos "Java –version" damos "enter" y te tiene que decir la version de Java que hayas instalado, y asi ya quedaria comprobado que esta totalmente instalado. 
+
+ 
+
+38.- Ahora instalaremos android studio, le damos click derecho al archivo y lo ejecutamos como administrador 
+
+ 
+
+39.- Damos "next" y dejamos igual las configuraciones de virtualizacion y damos "Next" y asi sucesivamente y luego le damos en "install" 
+
+ 
+
+40.- Cuando se abra nos pedira importar configuraciones previas y nosotros le damos en "Do not import settings", y le damos en "ok" 
+
+ 
+
+41.- Te aparecera una ventana si es que quieres compartirle datos a google y en esta ocasion le das en "Dont send" 
+
+ 
+
+42.- Nos aparecera una ventana y le damos en "next" luego nos saldra si lo queremos en "standard" o en "costum" y lo mas recomendable es dejarlo en "standard", luego te pedira que eligas el tema ya sea "Dark" o "Light" esta eleccion ya queda en tus gustos 
+
+ 
+
+43.- Luego te aparecera una ventana en la que te mostrara que es lo que se instalara en la computadora, y luego le das en "finish"  
+
+ 
+
+44.- Y una vez que se haya concluido la descarga te dira "Installed successfully" y le das en "finish" . 
+
+ 
+
+45.- y luego te aparecera una ventana en la que ya podras empezar a desarrollar los codigos para tus aplicaciones 
+
+ 
+
+46.- le das en "start new project Android studio" 
+
+ 
+
+47.- Y te saldra una ventana con muchos templates, y debes elegir el que viene por defecto que seria la segunda opcion y le das en "next" 
+
+ 
+
+48.- Y te saldra una ventana para que eligas el nombre de tu proyecto, ya eliges tu tu propio nombre y en el lenguaje eliges el de java en la API eliges android 4.1 para que corra en mas dispositivos 
+
+ 
+
+49.- y le das click en "finish" 
+
+ 
+
+50.- Ahora crearemos nuestro dispositivo virtual, vamos al icono de la derecha y le damos en crear un ABD 
+
+ 
+
+51.- Nos aparecera una ventana y le damos en "create virtual device". 
+
+ 
+
+52.- Nos aparecera otra ventana en la que nosotros tendremos que crear nuestro dispositivo virtual y elegimos el que nos interesa, en este caso seria el "nexus one", nos aparecera otra venta y le permitimos el acceso al dispositivo virtual 
+
+ 
+
+53.- Nos pedira un API, podemos descargar todos sin ingun problema, elegimos el API que buscamos en este caso el "Lollipop" y le damos en "download" y aceptamos los terminos 
+
+ 
+
+54.- una vez terminada la instalacion le damos en "finish" 
+
+ 
+
+55.- Y luego elegimos la API que descargamos y le damos en "Next" y nos aparecera una ventana con mas opciones para configurar nuestro dispositivo virtual una vez configurada el API le damos en "finish" 
+
+ 
+
+56.- Y luego empezara a ejecutar nuestra maquina virtual 
+
+ 
+
+57.- Para que se ejecute nos vamos a "run" y elegimos la opcion de "run app" y finalmente se nos ejecutara 
+
+ 
+
+58.- Y finalmente se nos ejecutara nuestra app que dejamos por defecto 
+
+ 
+
+59.- Luego nos vamos a "Activity main" para empezar a editar nuestra app 
+
+ 
+
+60.- vamos a los 3 iconos de la derecha y elegimos el primero, nos mostrara el dxml de la app 
+
+ 
+
+61.- Editamos el "Hello world" y ponemos lo que nosotros deseemos y listo se cambiara automaticamente  
+
+ 
+
+62.- luego le damos en "run" y luego elegimos "run app" y listo los cambios que hicimos se ven reflejados correctamente 
+
+ 
+
+63.- Y listo ya quedaria el android studio para empezar a programas, asi que a divertirse programando 
